@@ -4,7 +4,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.output_parsers import StrOutputParser
 
 # Secure API key handling
-api_key = "AIzaSyBuhWQHGfMQewIY_gdnmbzzYoori6faeUo"  # Store in .streamlit/secrets.toml
+api_key = "YOUR_GOOGLE_API_KEY"  # Store in .streamlit/secrets.toml
 
 # System prompt for travel recommendations
 prompt_template = ChatPromptTemplate.from_messages([
